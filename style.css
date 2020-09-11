@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#drums{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/vishnu-r-nair-m1WZS5ye404-unsplash.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.key{
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.key kbd {
+    font-size: 1.5em;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    color: white;
+}
+
+.key p {
+    font-size: 0.8em;
+    color: #9dfc03;
+    margin-top: 10px;
+}
